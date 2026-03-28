@@ -294,9 +294,13 @@ class PhoneRotationService {
     if (this.io) {
       this.getNumbersStatus().then((numbers) => {
         this.io.emit('number_status_changed', numbers);
+      }).catch((error) => {
+        console.error('Error broadcasting number status:', error);
       });
       this.getQueueStatus().then((queue) => {
         this.io.emit('queue_updated', queue);
+      }).catch((error) => {
+        console.error('Error broadcasting queue status:', error);
       });
     }
   }
