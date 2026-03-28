@@ -14,7 +14,9 @@ const app = express();
 
 app.use(helmet());
 app.use(cors());
-app.use(morgan('combined'));
+if (process.env.NODE_ENV !== 'test') {
+  app.use(morgan('combined'));
+}
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
