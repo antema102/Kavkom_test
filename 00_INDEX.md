@@ -24,6 +24,25 @@ Vous disposez maintenant de **5 documents** pour développer votre CRM complet :
 
 ---
 
+### 1b. 📘 DOCUMENTATION_API.md
+**🎯 Description:** Documentation complète et détaillée des APIs Kavkom  
+**📄 Utilité:** Référence technique exhaustive pour tous les endpoints CRM et PBX  
+**👥 Pour qui:** Développeurs backend, intégrateurs API  
+**⭐ Points clés:**
+- Endpoints CRM Tags (LIST, GET, STORE, ASSIGN, UPDATE, DELETE)
+- Endpoints PBX Active Calls, CDR, Destinations, Extensions, Users
+- Exemples de requêtes JavaScript avec fetch
+- Paramètres détaillés avec types et statuts
+- Exemples de réponses JSON
+- Authentification par X-API-TOKEN
+
+**💡 Quand l'utiliser:**
+- Pendant l'intégration avec l'API Kavkom
+- Pour vérifier la syntaxe et les paramètres d'un endpoint
+- Comme référence technique complète
+
+---
+
 ### 2. 🚀 PROMPT_COPILOT.md (Version Complète)
 **🎯 Description:** Spécifications complètes du projet CRM  
 **📄 Utilité:** Prompt détaillé pour GitHub Copilot / ChatGPT / Claude  
@@ -149,7 +168,8 @@ Vous disposez maintenant de **5 documents** pour développer votre CRM complet :
 ```
 📁 Votre Projet/
 │
-├── 📖 README.md                    ← API Kavkom (référence)
+├── 📖 README.md                    ← Documentation du projet CRM
+├── 📘 DOCUMENTATION_API.md         ← API Kavkom (référence complète)
 ├── 🚀 PROMPT_COPILOT.md            ← Prompt complet (dev)
 ├── ⚡ PROMPT_COPILOT_COURT.md      ← Prompt rapide (quick start)
 ├── 📊 SCHEMA_WORKFLOW.md           ← Schémas visuels (doc)

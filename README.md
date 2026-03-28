@@ -62,6 +62,10 @@ npm test
 | POST    | /api/contacts          | Créer un contact               |
 | GET     | /api/health            | Health check                   |
 
+## Documentation API Kavkom
+
+La documentation complète des APIs Kavkom (CRM Tags, PBX Active Calls, CDR, Destinations, Extensions, Users) est disponible dans le fichier [DOCUMENTATION_API.md](DOCUMENTATION_API.md).
+
 ## WebSocket Events
 
 - `number_status_changed` - Mise à jour des statuts des numéros
